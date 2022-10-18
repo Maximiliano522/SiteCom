@@ -128,6 +128,10 @@ body {
     position: relative;
 }
 
+.product-detail {
+    width: 60%;
+}
+
 .product-name {
     font-size: 8vw;
     text-transform: uppercase;
@@ -142,7 +146,9 @@ body {
     width: 90%;
     font-size: 1.2vw;
     line-height: 2vw;
-    color: rgba(0, 0, 0, 0.5)
+    color: rgba(0, 0, 0, 0.5);
+    text-align: left;
+
 }
 .buy-btn {
     text-decoration: none;
@@ -163,7 +169,7 @@ body {
     user-select: none;
 }
 
-.nxt-btn img {
+.nxt-btn-img {
     width: 60%;
 }
 
@@ -191,7 +197,7 @@ body {
     animation: slide-left 1s linear 1;
 }
 
-@Kkeyframes slide-left {
+@keyframes slide-left {
     to {
         left: 100;
     }
